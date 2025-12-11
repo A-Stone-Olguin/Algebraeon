@@ -21,9 +21,6 @@ rayon = "1.7.0"
 itertools = "0.14.0"
 lalrpop-util = { version = "0.22.1", features = ["lexer"] }
 
-[build-dependencies]
-reqwest = { version = "0.12.15", features = ["blocking"] }
-lalrpop = "0.22.1"
 
 [package.metadata.docs.rs]
 rustdoc-args = ["--html-in-header", "katex-header.html"]
